@@ -1,0 +1,5 @@
+./admin/log.db
+./admin/logs.json
+./applicant/logs.json
+./applicant/log.db
+./applicant/uploads/

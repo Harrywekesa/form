@@ -1,0 +1,44 @@
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#form {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  border: none;
+}
+
+#form #submit {
+  width: 50%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+h1{
+  text-align: center;
+}
+
+table tr {
+  border-bottom: 1px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}

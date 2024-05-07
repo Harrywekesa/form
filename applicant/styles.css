@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header-container nav ul li {
+  display: inline;
+  color: white;
+  margin: 5px;
+  /* border: 1px solid black; */
+}
+
+.header-container nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-container nav ul li a:hover {
+  color: orange;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+#form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#form input {
+  display: block;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+form #submit {
+  width: 25%;
+  color: white;
+  background-color: black;
+  border: solid 1px black;
+  border-radius: 1px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+span {
+  font-size: smaller;
+  color: red;
+}
+
+table tbody tr:nth-child(2n + 1) {
+  background-color: gray;
+  color: white;
+}
+
+table thead th {
+  background-color: black;
+  color: white;
+}
+
+table {
+  margin: auto;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
